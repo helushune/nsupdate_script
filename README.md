@@ -8,7 +8,7 @@ Requirements:
 * dig (part of bind-tools or bind-utils)
 * nsupdate or samba-nsupdate
 * Dual stack support
-* A TSIG key
+* [A TSIG key](http://lmgtfy.com/?q=rfc+2136+tsig)
 * Your own or someone else's server set up to allow incoming nsupdates using mentioned TSIG keys
   
 Default TTL is 1800 (30 mins), adjust to your liking; don't forget to update both the AAAA and A record blocks.
